@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="./index.css" rel="stylesheet" />
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg shadow bg-body-tertiary sticky-top mb-2"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="/">Fintech</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#navbarOffcanvasLg"
+          aria-controls="navbarOffcanvasLg"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="navbarOffcanvasLg"
+          aria-labelledby="navbarOffcanvasLgLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Fintech</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/financialGoals/"
+                  >Objetivos Financeiros</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main class="container">
+      <div class="row">
+        <div>
+          <h1 class="mb-5">Meus Objetivos Financeiros!</h1>
+          <button class="btn btn-sm btn-outline-primary">Adicionar Novo</button>
+        </div>
+
+        <div class="card shadow-sm m-2 mx-lg-auto col-md-12 col-lg-7">
+          <div class="card-body">
+            <div class="row">
+              <h3 class="col-6">Objetivo: Comprar Casa</h3>
+              <h3 class="col-6 text-end">Data Final: 22/03/2025</h3>
+            </div>
+            <div class="row mt-3">
+              <h5 class="col-6">Valor Acumulado: R$ 15.000,00</h5>
+              <h5 class="col-6 text-end">Objetivo Final: R$ 40.000,00</h5>
+            </div>
+            <div class="row mt-3">
+              <p>
+                <b>Descrição do Objetivo:</b> Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit. Nulla iaculis arcu nec cursus
+                varius. Morbi suscipit cursus elit, at sollicitudin tellus
+                posuere vehicula. Ut non pretium neque. Quisque vitae turpis
+                erat. Proin eget nisi gravida, commodo metus a, tempus tellus.
+                Suspendisse cursus arcu non facilisis pharetra. Cras et
+                consectetur tortor. Sed suscipit et odio eu vehicula. Phasellus
+                ullamcorper libero velit.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card shadow-sm my-2 mx-lg-auto col-md-12 col-lg-7">
+          <div class="card-body">
+            <div class="row">
+              <h3 class="col-6">Objetivo: Carro</h3>
+              <h3 class="col-6 text-end">Data Final: 22/12/2024</h3>
+            </div>
+            <div class="row mt-3">
+              <h5 class="col-6">Valor Acumulado: R$ 35.000,00</h5>
+              <h5 class="col-6 text-end">Objetivo Final: R$ 36.000,00</h5>
+            </div>
+            <div class="row mt-3">
+              <p>
+                <b>Descrição do Objetivo:</b> Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit. Nulla iaculis arcu nec cursus
+                varius. Morbi suscipit cursus elit, at sollicitudin tellus
+                posuere vehicula. Ut non pretium neque. Quisque vitae turpis
+                erat. Proin eget nisi gravida, commodo metus a, tempus tellus.
+                Suspendisse cursus arcu non facilisis pharetra. Cras et
+                consectetur tortor. Sed suscipit et odio eu vehicula. Phasellus
+                ullamcorper libero velit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="container-fluid mt-5">
+      <hr />
+      <p class="container text-center">Copyright © 2024 Nicolas T. Guimarães</p>
+    </footer>
+    <script src="./index.js"></script>
+    <script async src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
